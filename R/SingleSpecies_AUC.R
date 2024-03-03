@@ -4,7 +4,8 @@
 #' may be different depending on the shape parameter. This function calculates the initial
 #' starting value so that the total insect damage is the same for all shapes IF there is no
 #' interventions
-#'
+#' @useDynLib VART
+#' @importFrom Rcpp sourceCpp
 
 #' @param initial_individuals The initial starting value of the first stage individuals (i.e Juveniles)
 #' @param dev The development rate (i.e The mean development time is 1/dev)
